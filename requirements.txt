@@ -1,0 +1,16 @@
+# Core
+ultralytics>=8.4.0
+torch>=2.4.0
+torchvision
+
+# Inference / export
+onnx>=1.16
+onnxruntime>=1.18          # use onnxruntime-gpu for CUDA benchmarking
+
+# Data / imaging
+opencv-python>=4.9
+numpy>=1.26
+psutil>=5.9
+
+# Plotting
+matplotlib>=3.8
